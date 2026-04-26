@@ -25,7 +25,6 @@ class HomePanelProvider extends PanelProvider
             ->default()
             ->id('home')
             ->path('home')
-            ->viteTheme('resources/css/filament/home/theme.css')
             ->login(CustomLogin::class)
             ->registration(CustomRegister::class)
             ->profile()
